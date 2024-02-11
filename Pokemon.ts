@@ -12,6 +12,7 @@ export interface Pokemon {
   type: PokemonType;
   attack: number;
   defense: number;
+  speed: number;
   createdAt: Date;
   updatedAt: Date;
 }
